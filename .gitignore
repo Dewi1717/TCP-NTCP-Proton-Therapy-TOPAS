@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Hasil yang dibuat ulang saat skrip dijalankan dari folder python/
+python/*.png
+python/*.csv
+
+# Output TOPAS / Geant4 (biasanya besar)
+*.phsp
+*.header
+*.bin
+*.root
+build/
+
+# Editor dan sistem operasi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
